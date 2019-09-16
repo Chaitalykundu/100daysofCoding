@@ -1,0 +1,11 @@
+#write a program to compute distance between two points taking input from the user
+
+import math as a
+x1=int(input("enter 1st point: "))
+x2=int(input("enter 2nd point: "))
+y1=int(input("enter 3rd point: "))
+y2=int(input("enter 4th point: "))
+
+distance=a.sqrt(a.pow(x2-x1,2)+a.pow(y2-y1,2))
+
+print(distance)
