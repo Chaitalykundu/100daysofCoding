@@ -1,0 +1,13 @@
+#write a program to check if the character is alphabet or digit or special symbol
+
+
+a=input("Enter a character: ")
+a=ord(a)
+#print(a)
+
+if ((a>=65 and a<=90) or (a>=97 and a<=122)):
+    print("this is an Alphabet")
+elif(a>=47 and a<=58):
+    print("this is digit")
+else:
+    print("this is special symbol")
