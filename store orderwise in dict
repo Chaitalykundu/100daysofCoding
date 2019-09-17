@@ -1,0 +1,9 @@
+#write a python program to store (ascending and descending order) in a dictionary by value
+
+import operator as o
+words=dict(chaitaly=19,arupa=20,moupriya=18,mayuri=21)
+sort_1=sorted(words.items(),key=o.itemgetter(1))
+sort_2=sorted(words.items(),key=o.itemgetter(1), reverse=True)
+print(words)
+print(sort_1)
+print(sort_2)
