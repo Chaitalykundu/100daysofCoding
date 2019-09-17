@@ -1,0 +1,12 @@
+#update a dictionary
+
+
+info={'name': 'moni',
+      'age': 19,
+      'fav_movies':['3 idiots','student of the year'],
+      'fav_songs':['duniyaa', 'gajab ka hsi din']}
+print(info)
+
+more_info={'hometown':'siliguri','hobby':'gardening'}
+info.update(more_info)
+print(info)
