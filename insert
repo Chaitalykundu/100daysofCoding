@@ -1,0 +1,5 @@
+#write a python script to insert a new key into a dictionary
+
+info={'name': 'moni', 'age': 19}
+info['hometown']='siliguri'
+print(info)
