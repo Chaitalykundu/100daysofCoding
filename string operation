@@ -1,0 +1,12 @@
+#write a program to perform following operation----
+    #1.The total no of characters in a string
+    #2.the last three characters of a string
+    #3. print the string backwards direction
+    #4.print the string in capital letters
+
+a=input("Enter a string: ")
+
+print("the total no of string = ", len(a))
+print("the last three characters are- ", a[-3::])
+print("backwards direction is- ", a[::-1])
+print("the string in capital letters- ", a.upper())
