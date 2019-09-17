@@ -1,0 +1,16 @@
+#write a program that generates a list of 20 random numbers between 1 and 100 and print it
+
+
+
+import random
+def rand(start, end, num):
+    l=[]
+    for j in range(num):
+        l.append(random.randint(start,end))
+    return l
+a=1
+b=100
+c=20
+c1=0
+t=rand(a,b,c)
+print(t)
