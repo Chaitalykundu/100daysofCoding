@@ -1,0 +1,21 @@
+info={'name': 'moni',
+      'age': 19,
+      'fav_movies':['3 idiots','student of the year']}
+#add data
+info["fav_songs"]=["duniyaa","gajab ka hai din"]
+print(info)     #o/p:{'name': 'moni', 'age': 19, 'fav_movies': ['3 idiots', 'student of the year'], 'fav_songs': ['duniyaa', 'gajab ka hai din']}
+
+
+#pop method
+popped=info.pop("age")
+print(popped)       #19
+print(f"popped item is {popped}")   #popped item is 19
+print(type(popped))
+print(info) #o/p:{'name': 'moni', 'fav_movies': ['3 idiots', 'student of the year'], 'fav_songs': ['duniyaa', 'gajab ka hai din']}
+
+
+#popitem method
+pop_item=info.popitem()
+print(pop_item)     #('fav_songs', ['duniyaa', 'gajab ka hai din'])
+print(info) #{'name': 'moni', 'fav_movies': ['3 idiots', 'student of the year']}
+print(type(pop_item))   #<class 'tuple'>
