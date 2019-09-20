@@ -1,0 +1,15 @@
+#lambda with if else condition
+
+#normal way
+
+def length(s):
+    if len(s)>6:
+        return True
+    else:
+        return False
+print(length("moni"))   #o/p:False
+print(length("monisha"))    #o/p:True
+        
+#lambda
+length_chr= lambda s: True if len(s)>6 else False
+print(length_chr("moni"))   #o/p:False
