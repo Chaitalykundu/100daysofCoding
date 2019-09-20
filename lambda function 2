@@ -1,0 +1,36 @@
+#LAMBDA EXPRESSION PRACTICE
+############################## EVEN NO #################################
+
+#normal way
+def even(a):
+    if a%2==0:
+        return True
+    else:
+        return False
+print(even(43))      
+
+
+#simplify of normal way
+def even(a):
+    return a%2==0
+print(even(4))  #o/p:True
+
+
+#lambda exp:
+even= lambda a: a%2==0
+print(even(4235))   
+
+
+############################# LAST CHARACTER  ####################
+
+#NORMAL
+
+
+def last_char(s):
+    return s[-1]
+print(last_char("moni"))      
+
+
+#lambda
+last_chr= lambda s:  s[-1]
+print(last_chr("moni"))   
